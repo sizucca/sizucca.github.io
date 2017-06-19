@@ -1,0 +1,4 @@
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^(sizucca.github.io)(:80)? [NC]
+RewriteRule ^(.*) https://sizucca.com/$1 [R=301,L]
